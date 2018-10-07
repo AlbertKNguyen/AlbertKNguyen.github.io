@@ -66,7 +66,6 @@ header {
     position: absolute;
     width: 100%;
     opacity: 1;
-    float: left;
 }
 
 .header-title {
@@ -85,7 +84,6 @@ header {
     margin-top: 55.63rem;
     position: absolute;
     width: 100%;
-    float: right;
 }
 
 .contact-section {
@@ -95,7 +93,6 @@ header {
     margin-top: 89.08em;
     position: absolute;
     width: 100%;
-    float: left;
 }
 
 .footer {
@@ -105,7 +102,6 @@ header {
     margin-top: 127.58em;
     position: absolute;
     width: 100%;
-    float: right;
 }
 
 
