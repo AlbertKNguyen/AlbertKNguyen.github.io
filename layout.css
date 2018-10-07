@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding:0;
+    zoom: 1;
+    font-size: 10px;
+    max-width: 960px;
+	min-height: 100%; 
+}
+
+h1 {
+    font-size: 10em;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 6.2vmin;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index:1;
+}
+
+.container {
+    margin-left: 13vmin;
+    height: 6.2vmin;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.logo > img{
+    top: 0
+    position: absolute;
+    width: 4vmin; 
+    height: 6vmin;
+}
+
+.menu {
+    float: right;
+    font-size: 2.2vmin;
+    padding-top: 1.8vmin;
+    text-align: center; 
+}
+
+.menu > l1 {
+    display: inline-block;
+    margin-right: 6em;
+}
+
+.main{
+    margin-top: 6.2vmin;
+}
+
+.title-wrapper {
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+    width: 44%;
+}
+
+.footer-stuff {
+    font-family: "Cambria";
+    margin-top: 3rem;
+    text-align: center;
+}
