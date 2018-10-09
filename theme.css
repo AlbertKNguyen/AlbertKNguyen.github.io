@@ -77,31 +77,20 @@ header {
     font-size-adjust: auto;
 }
 
-.intro-section {
-    background-color: #4AD1D9;
-    font-size: 2em;
-    height: 44.58em;
-    margin-top: 55.63rem;
-    position: absolute;
-    width: 100%;
+.intro {
+    margin: auto;
+    text-align: center;
 }
 
-.contact-section {
-    background-color: #E9902B;
-    font-size: 2em;
-    height: 38.5em;
-    margin-top: 89.08em;
-    position: absolute;
-    width: 100%;
+.contact {
+    margin: auto;
+    text-align: center;
 }
 
-.footer {
-    background-color: #A9A9A9;
-    font-size: 2em;
-    height: 6em;
-    margin-top: 127.58em;
-    position: absolute;
-    width: 100%;
+.footer-stuff {
+    font-family: "Cambria";
+    margin-top: 2.5rem;
+    text-align: center;
 }
 
 
