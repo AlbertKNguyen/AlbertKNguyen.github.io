@@ -3,12 +3,14 @@ body {
     padding:0;
     zoom: 1;
     font-size: 10px;
-    max-width: 960px;
-    min-height: 100%; 
 }
 
 h1 {
     font-size: 10em;
+}
+
+h2 {
+    font-size: 3.7vmin;
 }
 
 ul {
@@ -58,37 +60,126 @@ ul {
     margin-top: 6.2vmin;
 }
 
+header {
+    background-image: url("images/color.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89em;
+    width: 100%;
+    opacity: 1;
+}
+
 .title-wrapper {
+    margin: auto;
+    padding-top: 10rem;
+    text-align: center;
+    width: 44%;
+}
+
+.subtitle-wrapper {
     margin: auto;
     margin-top: 10rem;
     text-align: center;
-    width: 44%;
+    width: 100%;
+}
+
+.subtitle-wrapper > l1 {
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.subtitle1 {
+    color: yellow;
+    margin-right: 12.3em;
+}
+
+.subtitle2 {
+    color:  red;
+}
+
+.subtitle3 {
+    color: purple;
+    margin-left: 9em;
+}
+
+.arrow1 {
+    margin-top: 16rem;
+    text-align: center;
+}
+
+.arrow1 > a > img {
+    width: 5em; 
+    height: 5em;
 }
 
 .intro-section {
     background-color: #4AD1D9;
     font-size: 2em;
     height: 44.58em;
-    margin-top: 55.63rem;
-    position: absolute;
     width: 100%;
+}
+
+.intro > h3 {
+    margin: 0;
+}
+
+.arrow2 {
+    margin-top: 47rem;
+    text-align: center;
+}
+
+.arrow2 > a > img {
+    width: 2.5em; 
+    height: 2.5em;
 }
 
 .contact-section {
     background-color: #E9902B;
+    display: inline-block;
     font-size: 2em;
     height: 39.5em;
-    margin-top: 89.08em;
-    position: absolute;
     width: 100%;
+    display: flex;
+}
+
+.contact-form {
+    margin-top: 6em;
+    margin-left: 6em;
+    width: 80%;
+}
+
+#contact-name {
+    margin-bottom: 1em;
+}
+
+#contact-email {
+    margin-bottom: 1em;
+}
+
+#contact-subject {
+    margin-bottom: 1em;
+}
+
+.contact-info {
+    margin-top: 5em;
+    width: 40%;
+}
+
+input[type=text] {
+    top: 0;
 }
 
 .footer {
-    background-color: #A9A9A9;
+    background-color: #492600;
     font-size: 2em;
     height: 5em;
-    margin-top: 128.58em;
-    position: absolute;
     width: 100%;
 }
+
+.footer-stuff > l1 {
+    margin-right: 5em;
+}
+
 

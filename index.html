@@ -23,8 +23,8 @@
         <ul class="menu">   
             <l1><a id="home" href= ''>Home</a></l1>
             <l1><a id="about" href= ''>About</a></l1>
-            <l1><a href= ''>Portfolio</a></l1>
-            <l1><a href= ''>Resume</a></l1>
+            <l1><a href='https://github.com/AlbertKNguyen'>Portfolio</a></l1>
+            <l1><a if "resume" href= ''>Resume</a></l1>
             <l1><a id="contact" href= ''>Contact</a></l1>
         </ul>
     </div>
@@ -34,7 +34,15 @@
 <header>
     <div class="title-wrapper">
         <h1 class="header-title">ALBERT K. NGUYEN</h>
-    </div>        
+    </div>    
+    <div class="subtitle-wrapper">
+        <l1><h2 class="subtitle1">Learner</h2></l1>
+        <l1><h2 class="subtitle2">Creator</h2></l1>
+        <l1><h2 class="subtitle3">Problem Solver</h2></l1>
+    </div>  
+    <div class="arrow1">
+        <a href= ''><img src="images/arrow.png" alt="Down"/></a>
+    </div>   
 </header>
 
 <div class="intro-section">
@@ -43,27 +51,37 @@
         <p>
             Hello I am Albert.
         </p>        
-    <div class="intro-button">
-        <a href= "">Click</a>
     </div>
-    </div>  
+    <div class="arrow2">
+        <a href= ''><img src="images/arrow.png" alt="Down"/></a>
+    </div>   
 </div>
 
 <div class="contact-section">
-    <div class="contact">
-        <h3>Contact</h3>
-        <p>
-            Hello I am Albert.
-        </p>        
-    <div class="contact-button">
-        <a href= "">Click</a>
+    <div class="contact-form">
+        <form action="contact.php" method="post">
+            Name:<br>
+            <input type="text" id="contact-name" name="name" placeholder="Your name" style="width:50%"><br>
+            Email:<br>
+            <input type="text" id="contact-email" name="email" placeholder="Your email" style="width:50%"><br>
+            Subject:<br>
+            <input type="text" id="contact-subject" name="subject" placeholder="Subject" style="width:50%"><br>
+            Message:<br>
+            <textarea id="contact-message" name="message" placeholder="Your message" style="height:20em; width:50%"></textarea><br>
+            <input type="submit" name="submit" value="Submit">
+        <form>
     </div>
+    <div class="contact-info">
+        <h3>Contact Info</h3>
     </div>
 </div>
 
 <div class="footer">
     <div class="footer-stuff">
-        <h3>Copyright © 2018 Albert K. Nguyen</h3>
+        <l1><p3>© 2018 Albert K. Nguyen</p3></l1>
+        <l1><a id="github" href= 'https://github.com/AlbertKNguyen/AlbertKNguyen.github.io'>Github</a></l1>
+        <l1><a id="musicshake" href= 'http://eng.musicshake.com/user/Deathman3737'>Musicshake</a></l1>
+        <l1><a id="soundcloud" href= 'https://soundcloud.com/admiralquackbar/tracks'>Soundcloud</a></l1>
     </div>        
 </div>
 

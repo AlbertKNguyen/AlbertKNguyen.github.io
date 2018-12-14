@@ -56,18 +56,6 @@ a:active {
     color: #000000;
 }
 
-header {
-    background-image: url("images/color.jpg");
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 89em;
-    position: absolute;
-    width: 100%;
-    opacity: 1;
-}
-
 .header-title {
     background-color:rgba(225, 225, 225, 0.37);
     border: solid;
@@ -82,15 +70,29 @@ header {
     text-align: center;
 }
 
-.contact {
-    margin: auto;
-    text-align: center;
+input[type=submit] {
+    background-color: #2C3CFE;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1em;
+    padding: 1em 2em;
+}
+
+input[type=submit]:hover {
+    background-color: #0013FF;
 }
 
 .footer-stuff {
-    font-family: "Cambria";
     margin-top: 2.5rem;
+    display: inline-block;
+    width: 100%;
+    font-family: "Cambria";
     text-align: center;
+}
+
+.footer-stuff > l1 > p3 {
+    color:#ACACAC;
 }
 
 

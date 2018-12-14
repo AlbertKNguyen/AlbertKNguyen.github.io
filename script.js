@@ -1,38 +1,61 @@
 $(document).ready(function($) {
     
-    $("#home").on("click", function() {
+    var screenPos = 0;
+    var page = 1;
+
+
+
+
+    $("#home").on("click", function(e) {
         window.scroll({
             top: 0, 
             left: 0, 
             behavior: 'smooth' 
         });
         page = 1
+        e.preventDefault(); 
     });
 
-    $("#about").on("click", function() {
+    $("#about").on("click", function(e) {
         window.scroll({
-            top: 892, 
+            top: 891, 
             left: 0, 
             behavior: 'smooth' 
         });
         page = 2
+        e.preventDefault(); 
     });
 
-    $("#contact").on("click", function() {
+    
+    $(".arrow1").on("click", function(e) {
+        window.scroll({
+            top: 891, 
+            left: 0, 
+            behavior: 'smooth' 
+        });
+        page = 2
+        e.preventDefault(); 
+    });
+
+    $(".arrow2").on("click", function(e) {
         window.scroll({
             top: 1781, 
             left: 0, 
             behavior: 'smooth' 
         });
         page = 3
-    });
-
-    $(".menu").on("click", function(e) {
         e.preventDefault(); 
     });
-   
-    var screenPos = 0;
-    var page = 1;
+
+    $("#contact").on("click", function(e) {
+        window.scroll({
+            top: 1781, 
+            left: 0, 
+            behavior: 'smooth' 
+        });
+        page = 3
+        e.preventDefault(); 
+    });
 
     $(window).on("scroll",function() {
         var scrollTop = $(document).scrollTop()
@@ -42,13 +65,13 @@ $(document).ready(function($) {
         var opacity = 1 - scrollTop/1000
         var opacity1 = 1 - (diff - 850)/1500
         var opacity2 = 1 - diff/1000
-        var opacity3 = 1 - diff/150
+        var opacity3 = 1 - diff/500
         $("header").css("opacity", opacity)
         $(".intro-section").css("opacity", opacity1)
         $(".contact-section").css("opacity", opacity2)
         $(".footer").css("opacity", opacity3)
 
-        var scrollUp = false;
+        /*var scrollUp = false;
         if(screenPos > scrollTop) {
             scrollUp = true;
         } else if(screenPos < scrollTop) {
@@ -71,7 +94,7 @@ $(document).ready(function($) {
                 left: 0, 
                 behavior: 'smooth', 
             });
-            page = 2
+            page = 2 
         }
 
         if(scrollTop < 1781 && page == 3 && scrollUp == true) {
@@ -92,16 +115,8 @@ $(document).ready(function($) {
             page = 3
         }    
 
-        screenPos = scrollTop;
+        screenPos = scrollTop; */
 
     });
-
-    $(document).keydown(function(event) {
-        $(window).bind("mousewheel DOMMouseScroll", function (event) {
-            if (event.ctrlKey == true) {
-                event.preventDefault();
-            }
-        });
-    }); 
 
 });
