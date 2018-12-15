@@ -8,11 +8,11 @@ body {
 }
 
 .menu {
-    color: #FFFFFF;
     font-family: times;
 }
 
 a {
+    color: #FFFFFF;
     text-decoration: none;
 }
 

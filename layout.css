@@ -66,7 +66,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 89em;
+    height: 93.8vh;
     width: 100%;
     opacity: 1;
 }
@@ -105,7 +105,7 @@ header {
 }
 
 .arrow1 {
-    margin-top: 16rem;
+    margin-top: 27vh;
     text-align: center;
 }
 
@@ -117,7 +117,7 @@ header {
 .intro-section {
     background-color: #4AD1D9;
     font-size: 2em;
-    height: 44.58em;
+    height: 93.8vh;
     width: 100%;
 }
 
@@ -139,7 +139,7 @@ header {
     background-color: #E9902B;
     display: inline-block;
     font-size: 2em;
-    height: 39.5em;
+    height: 83.2vh;
     width: 100%;
     display: flex;
 }
@@ -148,10 +148,6 @@ header {
     margin-top: 6em;
     margin-left: 6em;
     width: 80%;
-}
-
-#contact-name {
-    margin-bottom: 1em;
 }
 
 #contact-email {

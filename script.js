@@ -18,7 +18,7 @@ $(document).ready(function($) {
 
     $("#about").on("click", function(e) {
         window.scroll({
-            top: 891, 
+            top: 890, 
             left: 0, 
             behavior: 'smooth' 
         });
@@ -29,7 +29,7 @@ $(document).ready(function($) {
     
     $(".arrow1").on("click", function(e) {
         window.scroll({
-            top: 891, 
+            top: 890, 
             left: 0, 
             behavior: 'smooth' 
         });
@@ -49,7 +49,7 @@ $(document).ready(function($) {
 
     $("#contact").on("click", function(e) {
         window.scroll({
-            top: 1781, 
+            top: 1780, 
             left: 0, 
             behavior: 'smooth' 
         });
@@ -57,6 +57,7 @@ $(document).ready(function($) {
         e.preventDefault(); 
     });
 
+    /*
     $(window).on("scroll",function() {
         var scrollTop = $(document).scrollTop()
         var scrollBottom = scrollTop + $(window).height() 
@@ -71,7 +72,7 @@ $(document).ready(function($) {
         $(".contact-section").css("opacity", opacity2)
         $(".footer").css("opacity", opacity3)
 
-        /*var scrollUp = false;
+        var scrollUp = false;
         if(screenPos > scrollTop) {
             scrollUp = true;
         } else if(screenPos < scrollTop) {
@@ -79,7 +80,7 @@ $(document).ready(function($) {
         } else {}
 
         
-        if(scrollTop < 892 && page == 2 && scrollUp == true) {
+        if(scrollTop < 890 && page == 2 && scrollUp == true) {
             window.scroll({
                 top: 0, 
                 left: 0, 
@@ -90,33 +91,33 @@ $(document).ready(function($) {
  
         if(scrollTop > 0 && page == 1 && scrollUp == false) {
             window.scroll({
-                top: 892, 
+                top: 890, 
                 left: 0, 
                 behavior: 'smooth', 
             });
             page = 2 
         }
 
-        if(scrollTop < 1781 && page == 3 && scrollUp == true) {
+        if(scrollTop < 1780 && page == 3 && scrollUp == true) {
             window.scroll({
-                top: 892, 
+                top: 890, 
                 left: 0, 
                 behavior: 'smooth', 
             });
             page = 2
         }
 
-        if(scrollTop > 892 && page == 2 && scrollUp == false) {
+        if(scrollTop > 890 && page == 2 && scrollUp == false) {
             window.scroll({
-                top: 1781, 
+                top: 1780, 
                 left: 0, 
                 behavior: 'smooth', 
             });
             page = 3
         }    
 
-        screenPos = scrollTop; */
+        screenPos = scrollTop;  
 
-    });
+    });   */
 
 });
