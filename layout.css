@@ -66,7 +66,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 93.8vh;
+    height: 89em;
     width: 100%;
     opacity: 1;
 }
@@ -75,7 +75,7 @@ header {
     margin: auto;
     padding-top: 10rem;
     text-align: center;
-    width: 44%;
+    width: 88vh;
 }
 
 .subtitle-wrapper {
@@ -92,54 +92,64 @@ header {
 
 .subtitle1 {
     color: yellow;
-    margin-right: 21rem;
 }
 
 .subtitle2 {
     color:  red;
+    margin-left: 31.5vh;
+    margin-right: 27vh;
+    text-align: center;
 }
 
 .subtitle3 {
     color: purple;
-    margin-left: 18rem;
-}
-
-.arrow1 {
-    margin-top: 27vh;
-    text-align: center;
-}
-
-.arrow1 > a > img {
-    width: 5em; 
-    height: 5em;
 }
 
 .intro-section {
     background-color: #4AD1D9;
     font-size: 2em;
-    height: 93.8vh;
+    height: 44.58em;
     width: 100%;
+}
+
+.intro {
+    height: 40em;
+    float: left;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    width: 46em;
 }
 
 .intro > h3 {
     margin: 0;
 }
 
-.arrow2 {
-    margin-top: 47rem;
-    text-align: center;
+.githublogo > a > img {
+    height: 10em;
+    width: 10em;
+    margin-left: 20rem;
+    margin-top: 3.7rem;
 }
 
-.arrow2 > a > img {
-    width: 2.5em; 
-    height: 2.5em;
+.musicshakelogo > a > img {
+    height: 10em;
+    width: 10em;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+.soundcloudlogo > a > img {
+    height: 10em;
+    width: 10em;
+    margin-left: 20rem;
+    margin-top: 5rem;
 }
 
 .contact-section {
     background-color: #E9902B;
     display: inline-block;
     font-size: 2em;
-    height: 83.2vh;
+    height: 39.5em;
     width: 100%;
     display: flex;
 }

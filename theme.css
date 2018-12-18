@@ -65,11 +65,6 @@ a:active {
     font-size-adjust: auto;
 }
 
-.intro {
-    margin: auto;
-    text-align: center;
-}
-
 input[type=submit] {
     background-color: #2C3CFE;
     border: none;
