@@ -53,7 +53,7 @@ ul {
 
 .menu > l1 {
     display: inline-block;
-    margin-right: 5em;
+    margin-right: 5.4vw;
 }
 
 .main{
@@ -96,8 +96,8 @@ header {
 
 .subtitle2 {
     color:  red;
-    margin-left: 32.5vmin;
-    margin-right: 28vmin;
+    margin-left: 16vw;
+    margin-right: 14vw;
     text-align: center;
 }
 
@@ -110,7 +110,6 @@ header {
     font-size: 2em;
     height: 44.58em;
     width: 100%;
-    overflow-wrap: break-word;
 }
 
 .intro {
