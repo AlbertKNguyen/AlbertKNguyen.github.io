@@ -42,6 +42,21 @@ span {
   font-weight: normal;
 }
 
+.textStyle {
+  font-family: 'Consolas';
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  white-space: pre-line;
+}
+
+.contentScroll {
+  margin-top: 5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: calc(100% - 50px);
+}
+
 .animation-enter {
   margin-top: -100vh;
   transform: translateY(-150%);

@@ -1,16 +1,8 @@
 import React, { useEffect } from 'react';
 import PageHeader from '../components/PageHeader';
+import '../App.css';
 
 function About(props) {
-  const textStyle = {
-    fontFamily: 'Consolas',
-    marginTop: '0px',
-    marginLeft: '5px',
-    marginRight: '5px',
-    whiteSpace: 'pre-line',
-    fontSize: '1.5em',
-  };
-
   useEffect(() => {
     // Update document title
     document.title = 'Albert Nguyen | About';
@@ -20,8 +12,8 @@ function About(props) {
   return (
     <div style={props.style}>
       <PageHeader title='About' isDesktop={props.isDesktop} />
-      <div style={{ overflowX: 'hidden', overflowY: 'auto', height: 'calc(100% - 50px)' }}>
-        <p style={textStyle}>
+      <div className='contentScroll'>
+        <p className='textStyle' style={{ fontSize: '1.5em' }}>
           Hello, welcome to my site! I'm Albert and I love to code.
           To me, coding is like playing a puzzle game: engaging and fun.
           I believe my joy for code combined with my knack for problem-solving and constant passion to learn makes me a great software engineer.{"\n"}{"\n"}

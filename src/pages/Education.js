@@ -1,17 +1,10 @@
 import React, { useEffect } from 'react';
 import PageHeader from '../components/PageHeader';
 import { Grid } from 'semantic-ui-react';
+import '../App.css';
 
 
 function Education(props) {
-  const textStyle = {
-    fontFamily: 'Consolas',
-    marginTop: '0px',
-    marginLeft: '5px',
-    marginRight: '5px',
-    whiteSpace: 'pre-line',
-  };
-
   useEffect(() => {
     // Update document title
     document.title = 'Albert Nguyen | Education';
@@ -21,14 +14,14 @@ function Education(props) {
   return (
     <div style={props.style}>
       <PageHeader title='Education' isDesktop={props.isDesktop} />
-      <div style={{ overflowX: 'hidden', overflowY: 'auto', height: 'calc(100% - 50px)' }}>
-        <h1 style={textStyle}>
+      <div className='contentScroll'>
+        <h1 className='textStyle'>
           School: <span>University of California, Merced</span>{"\n"}
           Program: <span>BS in Computer Science and Engineering</span>{"\n"}
           Major GPA: <span>3.28</span>{"\n"}
           Relevant Coursework:
         </h1>
-        <h3 style={textStyle}>
+        <h3 className='textStyle'>
           <Grid style={{ fontWeight: 'normal' }}>
             <Grid.Row style={{ marginTop: '-10px' }}>
               <Grid.Column width={8}>
