@@ -11,7 +11,7 @@ function PageHeader(props) {
           align='center'
           style={{ height: '50px', backgroundColor: '#808080', color: 'white', marginBottom: '0px' }}>
           <Header.Content style={{ marginLeft: '105px', marginTop: '12px' }}>
-            {props.title}.js
+            {props.title}
           </Header.Content>
           <Header.Content style={{ marginTop: '12px', float: 'right' }}>
             <Icon style={{ transform: 'translateY(-35%)', marginRight: '10px' }} name='window minimize outline' />
@@ -25,11 +25,11 @@ function PageHeader(props) {
           as='h2'
           align='center'
           style={{ height: '50px', backgroundColor: '#808080', color: 'white', marginBottom: '0px' }}>
-          <Header.Content style={{ marginLeft: '2px', marginTop: '10px', float: 'left' }}>
+          <Header.Content style={{ marginLeft: '2px', marginTop: '12px', float: 'left' }}>
             <Navmenu />
           </Header.Content>
           <Header.Content style={{ marginLeft: '70px', marginTop: '12px' }}>
-            {props.title}.js
+            {props.title}
           </Header.Content>
           <Header.Content style={{ marginTop: '12px', float: 'right' }}>
             <Icon style={{ transform: 'translateY(-35%)', marginRight: '10px' }} name='window minimize outline' />
