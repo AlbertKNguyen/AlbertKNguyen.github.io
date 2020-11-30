@@ -16,7 +16,7 @@ function Experience(props) {
   return (
     <div style={props.style}>
       <PageHeader title='Experience' isDesktop={props.isDesktop} />
-      <Card.Group centered itemsPerRow={1} style={{ marginTop: '5px' }}>
+      <Card.Group centered itemsPerRow={1} style={{ marginTop: '5px', overflowX: 'hidden', overflowY: 'auto', height: 'calc(100% - 50px)' }}>
         <Card style={cardStyle}>
           <Card.Content>
             <Card.Header style={{ color: '#F4F4F4' }} content='Sweep Energy | Software Engineer' />

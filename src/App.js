@@ -35,8 +35,7 @@ function App() {
     maxHeight: '60vh',
     width: '960px',
     height: '540px',
-    overflowY: 'auto',
-    overflowX: 'hidden',
+    overflow: 'hidden',
     boxShadow: '10px 10px 8px #888888',
     color: '#D4D4D4',
     backgroundColor: '#1E1E1E'
