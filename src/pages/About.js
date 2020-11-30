@@ -8,7 +8,7 @@ function About(props) {
     marginLeft: '5px',
     marginRight: '5px',
     whiteSpace: 'pre-line',
-    fontWeight: 'normal',
+    fontSize: '1.5em'
   };
 
   useEffect(() => {
@@ -20,7 +20,7 @@ function About(props) {
   return (
     <div style={props.style}>
       <PageHeader title='About' isDesktop={props.isDesktop} />
-      <h2 style={textStyle}>
+      <p style={textStyle}>
         Hello, welcome to my site! I'm Albert and I love to code.
         To me, coding is like playing a puzzle game: engaging and fun.
         I believe my joy for code combined with my knack for problem-solving and constant passion to learn makes me a great software engineer.{"\n"}{"\n"}
@@ -32,7 +32,7 @@ function About(props) {
         Links:{"\n"}
         <a href="/resume.pdf">Resume</a>{"\n"}
         <a href="https://www.linkedin.com/in/albert-nguyen-b268b8170">Linkedin</a>
-      </h2>
+      </p>
     </div>
   );
 }
