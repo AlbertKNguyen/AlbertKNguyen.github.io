@@ -28,7 +28,7 @@ function PageHeader(props) {
           <Header.Content style={{ marginLeft: '2px', marginTop: '12px', float: 'left' }}>
             <Navmenu />
           </Header.Content>
-          <Header.Content style={{ marginLeft: '70px', marginTop: '12px' }}>
+          <Header.Content style={{ marginLeft: '60px', marginTop: '12px' }}>
             {props.title}
           </Header.Content>
           <Header.Content style={{ marginTop: '12px', float: 'right' }}>
