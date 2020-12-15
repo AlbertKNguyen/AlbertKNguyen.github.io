@@ -24,9 +24,9 @@ function Experience(props) {
               <Card.Header style={{ color: '#F4F4F4' }} content='Sweep Energy | Software Engineer' />
               <Card.Meta style={{ color: '#A4A4A4' }} content='September 2019 - Current' />
               <Card.Description style={{ color: '#D4D4D4' }}>
-                As a part-time software engineer, I was able to take on a bigger role in the company meanwhile balancing schoolwork during my schoolyear.
-                I was mainly tasked with the design and development of the front-end architecture and views for the hybrid app using Angular and Ionic.
-                Some of the main things I have built or contributed to were the login system, directory system, data charts, and many complex reactive forms.
+                As a part-time software engineer, I began to take on a bigger role in the company meanwhile balancing schoolwork during my schoolyear.
+                I am mainly tasked with the design and development of the front-end architecture and views for the hybrid app using Angular and Ionic.
+                Some of the things I have built or contributed to so far are: the login system, directory system, data charts, and many complex reactive forms.
             </Card.Description>
             </Card.Content>
           </Card>
