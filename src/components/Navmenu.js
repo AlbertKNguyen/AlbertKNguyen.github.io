@@ -16,7 +16,7 @@ function Navmenu(props) {
   }
 
   return (
-    <div>
+    <>
       {props.isDesktop &&
         <Menu text vertical style={{ background: 'transparent', boxShadow: 'none' }}>
           <Menu.Item header style={menuItemStyle}>Albert Nguyen</Menu.Item>
@@ -47,7 +47,7 @@ function Navmenu(props) {
         </Menu>
       }
       {!props.isDesktop &&
-        <div>
+        <>
           <Icon style={{ fontSize: '35px', background: 'transparent' }}
             name='bars'
             onClick={() => setVisible(true)}
@@ -91,9 +91,9 @@ function Navmenu(props) {
               fitted='horizontally'>
             </Menu.Item>
           </Sidebar>
-        </div>
+        </>
       }
-    </div >
+    </>
   );
 }
 

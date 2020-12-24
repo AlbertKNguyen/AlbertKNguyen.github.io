@@ -4,7 +4,7 @@ import Navmenu from './Navmenu';
 
 function PageHeader(props) {
   return (
-    <div>
+    <>
       {props.isDesktop &&
         <Header
           as='h2'
@@ -38,7 +38,7 @@ function PageHeader(props) {
           </Header.Content>
         </Header>
       }
-    </div>
+    </>
   );
 }
 
