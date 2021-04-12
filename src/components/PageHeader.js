@@ -9,7 +9,7 @@ function PageHeader(props) {
         <Header
           as='h2'
           align='center'
-          style={{ height: '50px', backgroundColor: '#808080', color: 'white', marginBottom: '0px' }}>
+          style={{ height: '50px', backgroundColor: '#808080', color: 'white', marginBottom: '-5px' }}>
           <Header.Content style={{ marginLeft: '105px', marginTop: '12px' }}>
             {props.title}
           </Header.Content>
@@ -24,7 +24,7 @@ function PageHeader(props) {
         <Header
           as='h2'
           align='center'
-          style={{ height: '50px', backgroundColor: '#808080', color: 'white', marginBottom: '0px' }}>
+          style={{ height: '50px', backgroundColor: '#808080', color: 'white', marginBottom: '-5px' }}>
           <Header.Content style={{ marginLeft: '2px', marginTop: '12px', float: 'left' }}>
             <Navmenu />
           </Header.Content>
