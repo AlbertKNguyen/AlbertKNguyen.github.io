@@ -18,11 +18,7 @@ function About(props) {
           am always looking to improve my skills and tackle new exciting
           challenges.
           {'\n'}
-          {'\n'}
-          My experience includes interning and working part-time as a software
-          engineer at Sweep Energy (startup).{'\n'}
-          {'\n'}I am currently looking for opportunities to expand my career as
-          a frontend/full-stack engineer.{'\n'}
+          {'\n'}I am currently a software engineer at BAE Systems.{'\n'}
           {'\n'}
           Links:{'\n'}
           <a href='/resume.pdf'>Resume</a>

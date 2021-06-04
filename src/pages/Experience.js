@@ -19,11 +19,27 @@ function Experience(props) {
       <PageHeader title='Experience' isDesktop={props.isDesktop} />
       <div className='contentScroll'>
         <Card.Group centered itemsPerRow={1} style={{ marginTop: '5px' }}>
+        <Card style={cardStyle}>
+            <Card.Content>
+              <Card.Header
+                style={{ color: '#F4F4F4' }}
+                content='BAE Systems | Software Engineer'
+              />
+              <Card.Meta
+                style={{ color: '#A4A4A4' }}
+                content='June 2021 - Current'
+              />
+              <Card.Description style={{ color: '#D4D4D4' }}>
+                Working on the Geospatial eXploitation (GXP) team.
+              </Card.Description>
+            </Card.Content>
+          </Card>
+
           <Card style={cardStyle}>
             <Card.Content>
               <Card.Header
                 style={{ color: '#F4F4F4' }}
-                content='Sweep Energy | Software Engineer'
+                content='Sweep Energy | Software Engineer (Part-time)'
               />
               <Card.Meta
                 style={{ color: '#A4A4A4' }}
