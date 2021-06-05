@@ -30,7 +30,7 @@ function Experience(props) {
                 content='June 2021 - Current'
               />
               <Card.Description style={{ color: '#D4D4D4' }}>
-                Working on the Geospatial eXploitation (GXP) team.
+                Working on the Geospatial eXploitation Products (GXP) team.
               </Card.Description>
             </Card.Content>
           </Card>
