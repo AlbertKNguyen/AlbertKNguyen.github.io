@@ -18,7 +18,7 @@ function About(props) {
           am always looking to improve my skills and tackle new exciting
           challenges.
           {'\n'}
-          {'\n'}I am currently a software engineer at BAE Systems Inc.{'\n'}
+          {'\n'}I am currently a software engineer at BAE Systems, Inc.{'\n'}
           {'\n'}
           Links:{'\n'}
           <a href='/resume.pdf'>Resume</a>

@@ -23,7 +23,7 @@ function Experience(props) {
             <Card.Content>
               <Card.Header
                 style={{ color: '#F4F4F4' }}
-                content='BAE Systems Inc. | Software Engineer'
+                content='BAE Systems, Inc. | Software Engineer'
               />
               <Card.Meta
                 style={{ color: '#A4A4A4' }}
