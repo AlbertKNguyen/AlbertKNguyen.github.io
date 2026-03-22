@@ -13,17 +13,18 @@ function About(props) {
       <PageHeader title='About' isDesktop={props.isDesktop} />
       <div className='contentScroll'>
         <p className='textStyle' style={{ fontSize: '1.5em' }}>
-          Hello, welcome to my site! I'm Albert and I love to code. To me,
-          coding is like playing a puzzle game: engaging and fun. That is why I
-          am always looking to improve my skills and tackle new exciting
-          challenges.
+          Hey, I'm Albert, a software engineer who loves to build. I get a lot
+          of satisfaction from taking on hard problems and seeing them through
+          to a working solution. I especially enjoy owning products end to end, from the
+          first line of code to the final experience a user gets. That's what
+          keeps me pushing to learn more and take on bigger challenges.
           {'\n'}
-          {'\n'}I am currently a software engineer at BAE Systems, Inc.{'\n'}
+          {'\n'}I am currently a Senior Full-Stack Software Engineer at Teambridge.{'\n'}
           {'\n'}
           Links:{'\n'}
           <a href='/resume.pdf'>Resume</a>
           {'\n'}
-          <a href='https://www.linkedin.com/in/albert-nguyen-b268b8170/'>
+          <a href='https://www.linkedin.com/in/albertkn37/'>
             Linkedin
           </a>
           {'\n'}

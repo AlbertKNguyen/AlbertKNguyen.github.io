@@ -23,14 +23,16 @@ function Experience(props) {
             <Card.Content>
               <Card.Header
                 style={{ color: '#F4F4F4' }}
-                content='BAE Systems, Inc. | Software Engineer'
+                content='Teambridge | Senior Full-Stack Software Engineer'
               />
               <Card.Meta
                 style={{ color: '#A4A4A4' }}
-                content='June 2021 - Current'
+                content='October 2021 - Current'
               />
               <Card.Description style={{ color: '#D4D4D4' }}>
-                Working on the Geospatial eXploitation Products (GXP) team.
+                Building full-stack solutions from seed to Series B. Led technical implementation for major customer launches,
+                built backend systems for document template editors, redesigned data table performance achieving 2-5x improvements,
+                and implemented geocoding APIs with PostGIS for map-based features.
               </Card.Description>
             </Card.Content>
           </Card>
